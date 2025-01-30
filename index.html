@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03-0001</title>
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
 
+<body class=".sora-font max-w-7xl mx-auto">
+    <header class="bg-[#FFF9F4]">
+        <div class="navbar w-11/12 md:w-10/12 mx-auto">
+            <div class="navbar-start">
+                <a href="#">
+                    <div class="md:flex items-start justify-center gap-3">
+                        <img class="w-12 h-12" src="./images/logo-header.png" alt="logo-header">
+                        <h3 class="hidden md:block text-2xl font-semibold">Browse<span
+                                class="text-[#FFDC26]">4</span>Pets</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-xl">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <div class=" hidden md:flex justify-center items-center gap-3">
+                    <a><img class="w-6" src="./images/notification.png" alt="notification"></a>
+                    <a><img class="w-6" src="./images/search.png" alt="search"></a>
+                    <a class="btn border border-[#FFDC26]  text-xl">Login</a>
+                    <a class="btn bg-[#FFDC26]  text-xl">Register</a>
+                </div>
+                <img class="md:hidden w-7 h-7" src="./images/bar.png" alt="bar">
+            </div>
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
-    </footer>    
+
+    </footer>
 </body>
+
 </html>
